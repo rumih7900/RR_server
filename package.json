@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "This is a server for redirection of small traffic made through resolverroom.com",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Backlit",
   "license": "MIT",
   "dependencies": {
+    "@emailjs/nodejs": "^2.2.0",
     "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.2",
+    "emailjs": "^4.0.3",
     "express": "^4.18.2"
   }
 }
