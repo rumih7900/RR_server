@@ -31,7 +31,7 @@ app.post('/booking',(req,res)=>{
        
 
         emailjs.send(process.env.SERVICE_ID,process.env.TEMPLATE_ID,data,{publicKey:process.env.PUBLICKEY})
-        .then(res=>{
+        .then(response=>{
             return res
                 .json({
                     success: true,
